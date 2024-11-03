@@ -9,7 +9,7 @@ export class FLowerModel {
   @Field()
   color: string;
   @Field(() => Float)
-  price: string;
+  price: number;
 
   @Field()
   createdAt: Date;

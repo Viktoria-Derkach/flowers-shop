@@ -11,7 +11,7 @@ export class FlowersService {
     private readonly configService: ConfigService,
   ) {}
   findAll() {
-    console.log(this.configService.get<EnumAppMode>('MODE'));
+    // console.log(this.configService.get<EnumAppMode>('MODE'));
 
     return this.prismaService.flower.findMany();
     // return [{ name: 'red', color: 'red', price: 1 }];

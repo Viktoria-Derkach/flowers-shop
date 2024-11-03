@@ -1,5 +1,5 @@
 import { Resolver, Query } from '@nestjs/graphql';
-import { FlowersService } from 'src/flowers/flowers.service';
+import { FlowersService } from '../flowers/flowers.service';
 
 @Resolver()
 export class FlowersGraphqlResolver {
